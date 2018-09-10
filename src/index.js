@@ -26,7 +26,7 @@ const jurassicWorldGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller
 
 ReactDOM.render(
   <MovieCard
-    // The default value of the poster property will appear.
+    // The default value of the poster property will appear
     title="Jurassic World"
     genres={jurassicWorldGenres}
   />,
