@@ -30,6 +30,7 @@ const jurassicWorldGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller
 
 ReactDOM.render(
   <MovieCard title="Jurassic World"
+             // Will use default poster for the poster
              genres={jurassicWorldGenres}
   />,
   document.getElementById('root')
